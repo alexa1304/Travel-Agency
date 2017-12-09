@@ -45,6 +45,7 @@ body {
   flex-direction: row;
 }
 .search__input1 {
+  padding: 0;
   height: 60px;
   width: 77%;
   border: none;
@@ -57,11 +58,18 @@ body {
   width: 23%;
   height: 60px;
   border: 2px solid #fff;
-  padding: 22px 0;
   border-radius: 0px;
   color: #ffffff;
   font-family: 'Aleo', serif;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 13px;
+  cursor: pointer;
+}
+.search__input2 i {
+  font-size: 24px;
 }
 .header-scroll-down {
   display: flex;
@@ -107,6 +115,7 @@ body {
   line-height: 90px;
   margin: auto;
   height: 100%;
+  cursor: pointer;
 }
 .menu__item:hover {
   background-color: #4965db;
@@ -143,6 +152,9 @@ body {
   width: 320px;
   height: 220px;
   padding-bottom: 5px;
+}
+.block_1__img--bottom {
+  margin-left: 125px;
 }
 .block_2 {
   background-color: #333333;
@@ -300,6 +312,7 @@ body {
   width: 80px;
   height: 50px;
   margin-left: 10px;
+  cursor: pointer;
 }
 .feedback .feedback__navigation div i {
   font-size: 50px;
@@ -338,6 +351,7 @@ body {
 .footer .sprite div {
   width: 17px;
   height: 17px;
+  cursor: pointer;
 }
 .footer .sprite .facebook {
   background: url("../img/sprite.png");
@@ -388,6 +402,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   font-family: 'Aleo', serif;
+  cursor: pointer;
 }
 .button:hover {
   background: #4361e6;
