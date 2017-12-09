@@ -110,12 +110,14 @@ body {
   align-items: flex-start;
 }
 .menu__item {
+  padding: 0 5px;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 90px;
   margin: auto;
   height: 100%;
   cursor: pointer;
+  box-sizing: border-box;
 }
 .menu__item:hover {
   background-color: #4965db;
